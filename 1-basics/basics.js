@@ -232,7 +232,8 @@ const secondArray= Array.of(...firstArray);
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
             // ✏️ ADD CODE HERE ✏️
-
+var longArray=new Array(100);
+console.log(longArray.length);
             ////////////////////////////////////////////////////////////////////
 
             expect(longArray).to.be.instanceOf(Array);
