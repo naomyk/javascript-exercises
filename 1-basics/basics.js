@@ -250,7 +250,8 @@ console.log(longArray.length);
             // By observing their casting behavior in the tests below, you can find
             // out the required types.
             // ✏️ ADD CODE HERE ✏️
-
+const firstVariable=1+2;
+const secondVariable="1";
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof firstVariable).to.equal("number");
