@@ -277,7 +277,7 @@ if(falsyString) {
             expect(typeof falsyString).to.equal("string");
             if (falsyString) {
                 throw new Error(
-                    "if() has been executed: falsyString is not falsy."
+                    "if() has been executed: falsyString is not falsy"
                 );
             }
         });
@@ -312,7 +312,10 @@ if(falsyString) {
             ////////////////////////////////////////////////////////////////////
             // Can you find a value that is typeof "object" but also casts to `false`?
             // ✏️ ADD CODE HERE ✏️
-
+var falsyThing =null;
+if(falsyThing) {
+    console.log("falsyThing is not falsy")
+}
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyThing).to.equal("object");
